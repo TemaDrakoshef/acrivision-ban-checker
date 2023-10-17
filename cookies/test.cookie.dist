@@ -1,0 +1,3 @@
+# Create a file {name}.cookie
+# Write the cookie obtained from the developer panel into it.
+# Example: tfa_enrollment_seen=true; ssoDevId=abcdef1234567890; CookieConsentPolicy=0:1 etc.

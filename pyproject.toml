@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "acrivision-ban-checker"
+version = "0.1.0"
+description = ""
+authors = ["TemaDrakoshef <artem125149@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+httpx = "^0.25.0"
+environs = "^9.5.0"
+betterlogging = "^0.2.1"
+pydantic = "^2.4.2"
+loguru = "^0.7.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.292"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
